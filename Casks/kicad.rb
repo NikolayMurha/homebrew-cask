@@ -1,8 +1,8 @@
 cask 'kicad' do
-  version '5.0.1'
-  sha256 '3066e7c8da09afea2e27b4dc5d0742c83c5a2e93408d9d76e342e14e594bc7b3'
+  version '5.0.2-5'
+  sha256 '1fc507987dfbc637805f1e1294480abdf869933d3300c01de691b12d655e84c7'
 
-  url "http://downloads.kicad-pcb.org/osx/stable/kicad-unified-#{version}.dmg"
+  url "https://kicad-downloads.s3.cern.ch/osx/stable/kicad-unified-#{version}.dmg"
   appcast 'http://downloads.kicad-pcb.org/osx/stable/'
   name 'KiCad'
   homepage 'http://kicad-pcb.org/'
